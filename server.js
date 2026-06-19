@@ -391,7 +391,7 @@ export function extractFinishReason(payload) {
   return typeof finishReason === "string" ? finishReason : "";
 }
 
-async function requestGeminiContent({
+async function requestAIContent({
   apiKey,
   model,
   fetchImpl,
