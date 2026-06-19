@@ -109,7 +109,7 @@ test("buildThumbnailPrompt includes thumbnail direction and script context", () 
   assert.match(prompt, /Script context/);
 });
 
-test("extractOutputText joins Gemini candidate text parts", () => {
+test("extractOutputText joins AI candidate text parts", () => {
   const text = extractOutputText({
     candidates: [
       {
@@ -175,7 +175,7 @@ test("extractOpenRouterImage reads a base64 data URL response", () => {
   });
 });
 
-test("extractFinishReason reads Gemini candidate finish reason", () => {
+test("extractFinishReason reads AI candidate finish reason", () => {
   assert.equal(
     extractFinishReason({
       candidates: [{ finishReason: "MAX_TOKENS" }]
