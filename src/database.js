@@ -7,8 +7,6 @@ const dataDir = fileURLToPath(new URL("../data/", import.meta.url));
 const defaultDbPath = join(dataDir, "db.json");
 const mongoUri = process.env.MONGODB_URI || "";
 const mongoDbName = process.env.MONGODB_DB_NAME || "narrivox_ai";
-console.log("MONGODB_URI exists:", !!process.env.MONGODB_URI);
-console.log("DB_NAME:", process.env.MONGODB_DB_NAME);
 
 const DEFAULT_DB = {
   users: [],
