@@ -395,23 +395,24 @@ restoreSession();
 
 const robotHead = document.querySelector(".robot-head");
 
-if(robotHead){
+if (robotHead) {
 
-document.addEventListener("mousemove",(e)=>{
+  document.addEventListener("mousemove", (e) => {
 
     const centerX = window.innerWidth / 2;
     const centerY = window.innerHeight / 2;
 
-    const deltaX = (e.clientX - centerX) / centerX;
-    const deltaY = (e.clientY - centerY) / centerY;
+    const dx = (e.clientX - centerX) / centerX;
+    const dy = (e.clientY - centerY) / centerY;
 
-    const rotateY = deltaX * 8;
-    const rotateX = deltaY * -4;
+    const rotate = dx * 12;
+    const lift = dy * -8;
 
     robotHead.style.transform =
-        `translateX(-50%)
-         rotate(${rotateY}deg)
-         translateY(${rotateX}px)`;
+      `translateX(-50%)
+       translateY(${lift}px)
+       rotate(${rotate}deg)`;
 
-});
+  });
+
 }
