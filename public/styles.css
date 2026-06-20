@@ -841,7 +841,7 @@ textarea:focus {
     position:absolute;
 
     left:56%;
-    top:52%;
+    top:46%;
 
     width:340px;
     height:380px;
@@ -865,13 +865,12 @@ textarea:focus {
 .robot-head{
     position:absolute;
 
-    top:20px;
+    bottom:130px;
     left:50%;
 
-    width:130px;
+    width:240px;
 
     transform-origin:center bottom;
-    transform:translateX(-50%);
 
     transition:transform .12s linear;
 }
