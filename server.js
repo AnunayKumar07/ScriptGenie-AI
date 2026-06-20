@@ -894,6 +894,6 @@ if (entryFilePath === process.argv[1]) {
   const server = createAppServer();
 
   server.listen(port, () => {
-    console.log(`Narrivox AI available at http://localhost:${port}`);
+    console.log(`ScriptGenie AI available at http://localhost:${port}`);
   });
 }
