@@ -835,3 +835,45 @@ textarea:focus {
         transform: translate(-50%, -50%);
     }
 }
+
+
+.ai-assistant{
+    position:absolute;
+
+    left:68%;
+    top:50%;
+
+    width:260px;
+    height:420px;
+
+    z-index:5;
+
+    pointer-events:none;
+}
+
+.robot-body{
+    position:absolute;
+
+    bottom:0;
+    left:50%;
+
+    width:100%;
+    transform:translateX(-50%);
+}
+
+.robot-head{
+    position:absolute;
+
+    top:-20px;
+    left:50%;
+
+    width:180px;
+
+    transform:
+        translateX(-50%)
+        rotate(0deg);
+
+    transform-origin:center bottom;
+
+    transition:transform .12s linear;
+}
