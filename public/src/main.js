@@ -310,8 +310,7 @@ async function handleSubmit(event) {
 
   setLoadingState(true);
   updateToneBadge();
-  updateOutput("Narrivox AI is building your outline, hook, and full script...", "Generating script...");
-
+  updateOutput("ScriptGenie AI is crafting your script...","Generating script...");
   try {
     const data = await requestJson("/api/generate-script", {
       method: "POST",
@@ -343,7 +342,7 @@ generateThumbnailButton.addEventListener("click", async () => {
 
   generateThumbnailButton.disabled = true;
   generateThumbnailButton.textContent = "Generating...";
-  setThumbnailState(null, "Narrivox AI is generating a thumbnail preview...");
+  setThumbnailState(null, "ScriptGenie AI is generating a thumbnail preview...");
 
   try {
     const data = await requestJson("/api/generate-thumbnail", {
