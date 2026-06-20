@@ -806,15 +806,13 @@ textarea:focus {
 
 .hero-robot {
     position: absolute;
-    left: 42%;
-    top: 45%;
 
-    transform: translate(-50%, -50%);
+    left: 68%;
+    top: 48%;
 
-    width: 180px;
+    width: 220px;
+
     z-index: 5;
-
-    pointer-events: none;
 
     animation: floatRobot 4s ease-in-out infinite;
 }
