@@ -841,7 +841,7 @@ textarea:focus {
     position:absolute;
 
     left:50%;
-    top:8%;
+    top:15%;
 
     width:600px;
     height:1000px;
@@ -868,7 +868,7 @@ textarea:focus {
 
     width:420px;
 
-    bottom:200px;
+    bottom:197px;
 
     transform-origin:center bottom;
     transform:translateX(-50%);
