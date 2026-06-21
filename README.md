@@ -87,13 +87,16 @@ http://localhost:3000
 
 ## Screenshots
 
-Add screenshots of:
-
 * Login Page
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06eb2745-c8d3-49bf-a3d9-5087d88d550e" />
+
 * Dashboard
-* Script Generation
-* Thumbnail Generation
-* Script History
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f3a941f-96df-4f4a-9762-bed311f339b4" />
+
+
+* Script Generation & Thumbnail Generation
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a370013-5e0a-41f4-ad01-57fc93192ad3" />
+
 
 ## Author
 
